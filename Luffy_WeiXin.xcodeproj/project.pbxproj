@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8302D6AE1DCC20CF009E70E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302D6AD1DCC20CF009E70E8 /* main.m */; };
+		8302D6B11DCC20CF009E70E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302D6B01DCC20CF009E70E8 /* AppDelegate.m */; };
+		8302D6B41DCC20CF009E70E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302D6B31DCC20CF009E70E8 /* ViewController.m */; };
+		8302D6B71DCC20CF009E70E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8302D6B51DCC20CF009E70E8 /* Main.storyboard */; };
+		8302D6B91DCC20CF009E70E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8302D6B81DCC20CF009E70E8 /* Assets.xcassets */; };
+		8302D6BC1DCC20CF009E70E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8302D6BA1DCC20CF009E70E8 /* LaunchScreen.storyboard */; };
+		8302D6C71DCC20CF009E70E8 /* Luffy_WeiXinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302D6C61DCC20CF009E70E8 /* Luffy_WeiXinTests.m */; };
+		8302D6D21DCC20CF009E70E8 /* Luffy_WeiXinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302D6D11DCC20CF009E70E8 /* Luffy_WeiXinUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8302D6C31DCC20CF009E70E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8302D6A11DCC20CE009E70E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8302D6A81DCC20CE009E70E8;
+			remoteInfo = Luffy_WeiXin;
+		};
+		8302D6CE1DCC20CF009E70E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8302D6A11DCC20CE009E70E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8302D6A81DCC20CE009E70E8;
+			remoteInfo = Luffy_WeiXin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8302D6A91DCC20CE009E70E8 /* Luffy_WeiXin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luffy_WeiXin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8302D6AD1DCC20CF009E70E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8302D6AF1DCC20CF009E70E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8302D6B01DCC20CF009E70E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8302D6B21DCC20CF009E70E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8302D6B31DCC20CF009E70E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8302D6B61DCC20CF009E70E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8302D6B81DCC20CF009E70E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8302D6BB1DCC20CF009E70E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8302D6BD1DCC20CF009E70E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8302D6C21DCC20CF009E70E8 /* Luffy_WeiXinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Luffy_WeiXinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8302D6C61DCC20CF009E70E8 /* Luffy_WeiXinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Luffy_WeiXinTests.m; sourceTree = "<group>"; };
+		8302D6C81DCC20CF009E70E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8302D6CD1DCC20CF009E70E8 /* Luffy_WeiXinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Luffy_WeiXinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8302D6D11DCC20CF009E70E8 /* Luffy_WeiXinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Luffy_WeiXinUITests.m; sourceTree = "<group>"; };
+		8302D6D31DCC20CF009E70E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8302D6A61DCC20CE009E70E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8302D6BF1DCC20CF009E70E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8302D6CA1DCC20CF009E70E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8302D6A01DCC20CE009E70E8 = {
+			isa = PBXGroup;
+			children = (
+				8302D6AB1DCC20CE009E70E8 /* Luffy_WeiXin */,
+				8302D6C51DCC20CF009E70E8 /* Luffy_WeiXinTests */,
+				8302D6D01DCC20CF009E70E8 /* Luffy_WeiXinUITests */,
+				8302D6AA1DCC20CE009E70E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8302D6AA1DCC20CE009E70E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8302D6A91DCC20CE009E70E8 /* Luffy_WeiXin.app */,
+				8302D6C21DCC20CF009E70E8 /* Luffy_WeiXinTests.xctest */,
+				8302D6CD1DCC20CF009E70E8 /* Luffy_WeiXinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8302D6AB1DCC20CE009E70E8 /* Luffy_WeiXin */ = {
+			isa = PBXGroup;
+			children = (
+				8302D6AF1DCC20CF009E70E8 /* AppDelegate.h */,
+				8302D6B01DCC20CF009E70E8 /* AppDelegate.m */,
+				8302D6B21DCC20CF009E70E8 /* ViewController.h */,
+				8302D6B31DCC20CF009E70E8 /* ViewController.m */,
+				8302D6B51DCC20CF009E70E8 /* Main.storyboard */,
+				8302D6B81DCC20CF009E70E8 /* Assets.xcassets */,
+				8302D6BA1DCC20CF009E70E8 /* LaunchScreen.storyboard */,
+				8302D6BD1DCC20CF009E70E8 /* Info.plist */,
+				8302D6AC1DCC20CF009E70E8 /* Supporting Files */,
+			);
+			path = Luffy_WeiXin;
+			sourceTree = "<group>";
+		};
+		8302D6AC1DCC20CF009E70E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8302D6AD1DCC20CF009E70E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8302D6C51DCC20CF009E70E8 /* Luffy_WeiXinTests */ = {
+			isa = PBXGroup;
+			children = (
+				8302D6C61DCC20CF009E70E8 /* Luffy_WeiXinTests.m */,
+				8302D6C81DCC20CF009E70E8 /* Info.plist */,
+			);
+			path = Luffy_WeiXinTests;
+			sourceTree = "<group>";
+		};
+		8302D6D01DCC20CF009E70E8 /* Luffy_WeiXinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8302D6D11DCC20CF009E70E8 /* Luffy_WeiXinUITests.m */,
+				8302D6D31DCC20CF009E70E8 /* Info.plist */,
+			);
+			path = Luffy_WeiXinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8302D6A81DCC20CE009E70E8 /* Luffy_WeiXin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8302D6D61DCC20CF009E70E8 /* Build configuration list for PBXNativeTarget "Luffy_WeiXin" */;
+			buildPhases = (
+				8302D6A51DCC20CE009E70E8 /* Sources */,
+				8302D6A61DCC20CE009E70E8 /* Frameworks */,
+				8302D6A71DCC20CE009E70E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Luffy_WeiXin;
+			productName = Luffy_WeiXin;
+			productReference = 8302D6A91DCC20CE009E70E8 /* Luffy_WeiXin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8302D6C11DCC20CF009E70E8 /* Luffy_WeiXinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8302D6D91DCC20CF009E70E8 /* Build configuration list for PBXNativeTarget "Luffy_WeiXinTests" */;
+			buildPhases = (
+				8302D6BE1DCC20CF009E70E8 /* Sources */,
+				8302D6BF1DCC20CF009E70E8 /* Frameworks */,
+				8302D6C01DCC20CF009E70E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8302D6C41DCC20CF009E70E8 /* PBXTargetDependency */,
+			);
+			name = Luffy_WeiXinTests;
+			productName = Luffy_WeiXinTests;
+			productReference = 8302D6C21DCC20CF009E70E8 /* Luffy_WeiXinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8302D6CC1DCC20CF009E70E8 /* Luffy_WeiXinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8302D6DC1DCC20CF009E70E8 /* Build configuration list for PBXNativeTarget "Luffy_WeiXinUITests" */;
+			buildPhases = (
+				8302D6C91DCC20CF009E70E8 /* Sources */,
+				8302D6CA1DCC20CF009E70E8 /* Frameworks */,
+				8302D6CB1DCC20CF009E70E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8302D6CF1DCC20CF009E70E8 /* PBXTargetDependency */,
+			);
+			name = Luffy_WeiXinUITests;
+			productName = Luffy_WeiXinUITests;
+			productReference = 8302D6CD1DCC20CF009E70E8 /* Luffy_WeiXinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8302D6A11DCC20CE009E70E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com.elepphant.pingchuan;
+				TargetAttributes = {
+					8302D6A81DCC20CE009E70E8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9N6P88TN8F;
+						ProvisioningStyle = Automatic;
+					};
+					8302D6C11DCC20CF009E70E8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9N6P88TN8F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8302D6A81DCC20CE009E70E8;
+					};
+					8302D6CC1DCC20CF009E70E8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9N6P88TN8F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8302D6A81DCC20CE009E70E8;
+					};
+				};
+			};
+			buildConfigurationList = 8302D6A41DCC20CE009E70E8 /* Build configuration list for PBXProject "Luffy_WeiXin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8302D6A01DCC20CE009E70E8;
+			productRefGroup = 8302D6AA1DCC20CE009E70E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8302D6A81DCC20CE009E70E8 /* Luffy_WeiXin */,
+				8302D6C11DCC20CF009E70E8 /* Luffy_WeiXinTests */,
+				8302D6CC1DCC20CF009E70E8 /* Luffy_WeiXinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8302D6A71DCC20CE009E70E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8302D6BC1DCC20CF009E70E8 /* LaunchScreen.storyboard in Resources */,
+				8302D6B91DCC20CF009E70E8 /* Assets.xcassets in Resources */,
+				8302D6B71DCC20CF009E70E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8302D6C01DCC20CF009E70E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8302D6CB1DCC20CF009E70E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8302D6A51DCC20CE009E70E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8302D6B41DCC20CF009E70E8 /* ViewController.m in Sources */,
+				8302D6B11DCC20CF009E70E8 /* AppDelegate.m in Sources */,
+				8302D6AE1DCC20CF009E70E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8302D6BE1DCC20CF009E70E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8302D6C71DCC20CF009E70E8 /* Luffy_WeiXinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8302D6C91DCC20CF009E70E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8302D6D21DCC20CF009E70E8 /* Luffy_WeiXinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8302D6C41DCC20CF009E70E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8302D6A81DCC20CE009E70E8 /* Luffy_WeiXin */;
+			targetProxy = 8302D6C31DCC20CF009E70E8 /* PBXContainerItemProxy */;
+		};
+		8302D6CF1DCC20CF009E70E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8302D6A81DCC20CE009E70E8 /* Luffy_WeiXin */;
+			targetProxy = 8302D6CE1DCC20CF009E70E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8302D6B51DCC20CF009E70E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8302D6B61DCC20CF009E70E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8302D6BA1DCC20CF009E70E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8302D6BB1DCC20CF009E70E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8302D6D41DCC20CF009E70E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8302D6D51DCC20CF009E70E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8302D6D71DCC20CF009E70E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N6P88TN8F;
+				INFOPLIST_FILE = Luffy_WeiXin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luffy.Luffy-WeiXin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8302D6D81DCC20CF009E70E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N6P88TN8F;
+				INFOPLIST_FILE = Luffy_WeiXin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luffy.Luffy-WeiXin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8302D6DA1DCC20CF009E70E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9N6P88TN8F;
+				INFOPLIST_FILE = Luffy_WeiXinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luffy.Luffy-WeiXinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luffy_WeiXin.app/Luffy_WeiXin";
+			};
+			name = Debug;
+		};
+		8302D6DB1DCC20CF009E70E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9N6P88TN8F;
+				INFOPLIST_FILE = Luffy_WeiXinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luffy.Luffy-WeiXinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luffy_WeiXin.app/Luffy_WeiXin";
+			};
+			name = Release;
+		};
+		8302D6DD1DCC20CF009E70E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9N6P88TN8F;
+				INFOPLIST_FILE = Luffy_WeiXinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luffy.Luffy-WeiXinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Luffy_WeiXin;
+			};
+			name = Debug;
+		};
+		8302D6DE1DCC20CF009E70E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9N6P88TN8F;
+				INFOPLIST_FILE = Luffy_WeiXinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luffy.Luffy-WeiXinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Luffy_WeiXin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8302D6A41DCC20CE009E70E8 /* Build configuration list for PBXProject "Luffy_WeiXin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8302D6D41DCC20CF009E70E8 /* Debug */,
+				8302D6D51DCC20CF009E70E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8302D6D61DCC20CF009E70E8 /* Build configuration list for PBXNativeTarget "Luffy_WeiXin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8302D6D71DCC20CF009E70E8 /* Debug */,
+				8302D6D81DCC20CF009E70E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8302D6D91DCC20CF009E70E8 /* Build configuration list for PBXNativeTarget "Luffy_WeiXinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8302D6DA1DCC20CF009E70E8 /* Debug */,
+				8302D6DB1DCC20CF009E70E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8302D6DC1DCC20CF009E70E8 /* Build configuration list for PBXNativeTarget "Luffy_WeiXinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8302D6DD1DCC20CF009E70E8 /* Debug */,
+				8302D6DE1DCC20CF009E70E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8302D6A11DCC20CE009E70E8 /* Project object */;
+}
