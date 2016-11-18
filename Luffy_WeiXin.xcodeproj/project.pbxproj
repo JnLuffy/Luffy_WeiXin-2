@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61D19D83ADB94E713E55643E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C886A20BAE7FFE52AFD3486B /* libPods.a */; };
 		8302D6AE1DCC20CF009E70E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302D6AD1DCC20CF009E70E8 /* main.m */; };
 		8302D6B11DCC20CF009E70E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302D6B01DCC20CF009E70E8 /* AppDelegate.m */; };
 		8302D6B41DCC20CF009E70E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302D6B31DCC20CF009E70E8 /* ViewController.m */; };
 		8302D6B71DCC20CF009E70E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8302D6B51DCC20CF009E70E8 /* Main.storyboard */; };
-		8302D6B91DCC20CF009E70E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8302D6B81DCC20CF009E70E8 /* Assets.xcassets */; };
-		8302D6BC1DCC20CF009E70E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8302D6BA1DCC20CF009E70E8 /* LaunchScreen.storyboard */; };
 		8302D6C71DCC20CF009E70E8 /* Luffy_WeiXinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302D6C61DCC20CF009E70E8 /* Luffy_WeiXinTests.m */; };
 		8302D6D21DCC20CF009E70E8 /* Luffy_WeiXinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302D6D11DCC20CF009E70E8 /* Luffy_WeiXinUITests.m */; };
+		833AB52A1DD991A700877EE5 /* IMG_0027.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 833AB5291DD991A700877EE5 /* IMG_0027.JPG */; };
+		833AB52E1DD9AD6400877EE5 /* LFYChatTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 833AB52D1DD9AD6400877EE5 /* LFYChatTextCell.m */; };
+		833AB5311DD9AD7E00877EE5 /* LFYChatImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 833AB5301DD9AD7E00877EE5 /* LFYChatImageCell.m */; };
+		835522AE1DD5A8E20037A30B /* LFYChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835522AD1DD5A8E20037A30B /* LFYChatViewController.m */; };
+		835522B11DD5AB690037A30B /* LFYMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 835522B01DD5AB690037A30B /* LFYMessageModel.m */; };
+		835522B41DD5AC030037A30B /* LFYMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 835522B31DD5AC030037A30B /* LFYMessage.m */; };
+		835522B81DD5AE310037A30B /* LFYChatBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 835522B71DD5AE310037A30B /* LFYChatBaseCell.m */; };
+		83DDF6CA1DCC384000B8B6A7 /* LFYBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDF6C91DCC384000B8B6A7 /* LFYBaseVC.m */; };
+		83DDF6CD1DCC38A300B8B6A7 /* LFYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDF6CC1DCC38A300B8B6A7 /* LFYTabBarController.m */; };
+		83DDF6D01DCC522D00B8B6A7 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDF6CF1DCC522D00B8B6A7 /* HomeVC.m */; };
+		83DDF6D31DCC53E100B8B6A7 /* ContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDF6D21DCC53E100B8B6A7 /* ContactVC.m */; };
+		83DDF6D61DCC53F600B8B6A7 /* DiscoveryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDF6D51DCC53F600B8B6A7 /* DiscoveryVC.m */; };
+		83DDF6D91DCC540100B8B6A7 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDF6D81DCC540100B8B6A7 /* MineVC.m */; };
+		83DDF6DB1DCC6B7D00B8B6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83DDF6DA1DCC6B7D00B8B6A7 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +55,6 @@
 		8302D6B21DCC20CF009E70E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8302D6B31DCC20CF009E70E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8302D6B61DCC20CF009E70E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8302D6B81DCC20CF009E70E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8302D6BB1DCC20CF009E70E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8302D6BD1DCC20CF009E70E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8302D6C21DCC20CF009E70E8 /* Luffy_WeiXinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Luffy_WeiXinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8302D6C61DCC20CF009E70E8 /* Luffy_WeiXinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Luffy_WeiXinTests.m; sourceTree = "<group>"; };
@@ -51,6 +62,36 @@
 		8302D6CD1DCC20CF009E70E8 /* Luffy_WeiXinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Luffy_WeiXinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8302D6D11DCC20CF009E70E8 /* Luffy_WeiXinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Luffy_WeiXinUITests.m; sourceTree = "<group>"; };
 		8302D6D31DCC20CF009E70E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833AB5291DD991A700877EE5 /* IMG_0027.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0027.JPG; path = ../ViewControllers/ChatViewController/Views/ChatCells/IMG_0027.JPG; sourceTree = "<group>"; };
+		833AB52C1DD9AD6400877EE5 /* LFYChatTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYChatTextCell.h; sourceTree = "<group>"; };
+		833AB52D1DD9AD6400877EE5 /* LFYChatTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYChatTextCell.m; sourceTree = "<group>"; };
+		833AB52F1DD9AD7E00877EE5 /* LFYChatImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYChatImageCell.h; sourceTree = "<group>"; };
+		833AB5301DD9AD7E00877EE5 /* LFYChatImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYChatImageCell.m; sourceTree = "<group>"; };
+		835522A81DD59FAC0037A30B /* Luffy_WeiXin.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Luffy_WeiXin.pch; sourceTree = "<group>"; };
+		835522AC1DD5A8E20037A30B /* LFYChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYChatViewController.h; sourceTree = "<group>"; };
+		835522AD1DD5A8E20037A30B /* LFYChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYChatViewController.m; sourceTree = "<group>"; };
+		835522AF1DD5AB690037A30B /* LFYMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYMessageModel.h; sourceTree = "<group>"; };
+		835522B01DD5AB690037A30B /* LFYMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYMessageModel.m; sourceTree = "<group>"; };
+		835522B21DD5AC030037A30B /* LFYMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYMessage.h; sourceTree = "<group>"; };
+		835522B31DD5AC030037A30B /* LFYMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYMessage.m; sourceTree = "<group>"; };
+		835522B61DD5AE310037A30B /* LFYChatBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYChatBaseCell.h; sourceTree = "<group>"; };
+		835522B71DD5AE310037A30B /* LFYChatBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYChatBaseCell.m; sourceTree = "<group>"; };
+		83DDF6C81DCC384000B8B6A7 /* LFYBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYBaseVC.h; sourceTree = "<group>"; };
+		83DDF6C91DCC384000B8B6A7 /* LFYBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYBaseVC.m; sourceTree = "<group>"; };
+		83DDF6CB1DCC38A300B8B6A7 /* LFYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYTabBarController.h; sourceTree = "<group>"; };
+		83DDF6CC1DCC38A300B8B6A7 /* LFYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYTabBarController.m; sourceTree = "<group>"; };
+		83DDF6CE1DCC522D00B8B6A7 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		83DDF6CF1DCC522D00B8B6A7 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		83DDF6D11DCC53E100B8B6A7 /* ContactVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactVC.h; sourceTree = "<group>"; };
+		83DDF6D21DCC53E100B8B6A7 /* ContactVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactVC.m; sourceTree = "<group>"; };
+		83DDF6D41DCC53F600B8B6A7 /* DiscoveryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryVC.h; sourceTree = "<group>"; };
+		83DDF6D51DCC53F600B8B6A7 /* DiscoveryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryVC.m; sourceTree = "<group>"; };
+		83DDF6D71DCC540100B8B6A7 /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		83DDF6D81DCC540100B8B6A7 /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		83DDF6DA1DCC6B7D00B8B6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		921BE08A3A8FACA917304EA6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C886A20BAE7FFE52AFD3486B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9C534F788CAF2151F5B5BB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D19D83ADB94E713E55643E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +127,8 @@
 				8302D6C51DCC20CF009E70E8 /* Luffy_WeiXinTests */,
 				8302D6D01DCC20CF009E70E8 /* Luffy_WeiXinUITests */,
 				8302D6AA1DCC20CE009E70E8 /* Products */,
+				ACD5118BAD5D23823173D8D3 /* Pods */,
+				9221290D40E9B1B0EAABCC4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +145,14 @@
 		8302D6AB1DCC20CE009E70E8 /* Luffy_WeiXin */ = {
 			isa = PBXGroup;
 			children = (
+				83DDF6C11DCC365600B8B6A7 /* ViewControllers */,
 				8302D6AF1DCC20CF009E70E8 /* AppDelegate.h */,
 				8302D6B01DCC20CF009E70E8 /* AppDelegate.m */,
 				8302D6B21DCC20CF009E70E8 /* ViewController.h */,
 				8302D6B31DCC20CF009E70E8 /* ViewController.m */,
 				8302D6B51DCC20CF009E70E8 /* Main.storyboard */,
-				8302D6B81DCC20CF009E70E8 /* Assets.xcassets */,
-				8302D6BA1DCC20CF009E70E8 /* LaunchScreen.storyboard */,
-				8302D6BD1DCC20CF009E70E8 /* Info.plist */,
+				83DDF6DA1DCC6B7D00B8B6A7 /* Assets.xcassets */,
+				833AB52B1DD99B7900877EE5 /* Resource */,
 				8302D6AC1DCC20CF009E70E8 /* Supporting Files */,
 			);
 			path = Luffy_WeiXin;
@@ -117,7 +161,9 @@
 		8302D6AC1DCC20CF009E70E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8302D6BD1DCC20CF009E70E8 /* Info.plist */,
 				8302D6AD1DCC20CF009E70E8 /* main.m */,
+				835522A81DD59FAC0037A30B /* Luffy_WeiXin.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +186,143 @@
 			path = Luffy_WeiXinUITests;
 			sourceTree = "<group>";
 		};
+		833AB52B1DD99B7900877EE5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				833AB5291DD991A700877EE5 /* IMG_0027.JPG */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		835522A91DD5A7EF0037A30B /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				835522AA1DD5A82A0037A30B /* Models */,
+				835522AB1DD5A82A0037A30B /* Views */,
+				835522AC1DD5A8E20037A30B /* LFYChatViewController.h */,
+				835522AD1DD5A8E20037A30B /* LFYChatViewController.m */,
+			);
+			name = Chat;
+			path = ChatViewController;
+			sourceTree = "<group>";
+		};
+		835522AA1DD5A82A0037A30B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				835522AF1DD5AB690037A30B /* LFYMessageModel.h */,
+				835522B01DD5AB690037A30B /* LFYMessageModel.m */,
+				835522B21DD5AC030037A30B /* LFYMessage.h */,
+				835522B31DD5AC030037A30B /* LFYMessage.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		835522AB1DD5A82A0037A30B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				835522B51DD5ADC60037A30B /* ChatCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		835522B51DD5ADC60037A30B /* ChatCells */ = {
+			isa = PBXGroup;
+			children = (
+				835522B61DD5AE310037A30B /* LFYChatBaseCell.h */,
+				835522B71DD5AE310037A30B /* LFYChatBaseCell.m */,
+				833AB52C1DD9AD6400877EE5 /* LFYChatTextCell.h */,
+				833AB52D1DD9AD6400877EE5 /* LFYChatTextCell.m */,
+				833AB52F1DD9AD7E00877EE5 /* LFYChatImageCell.h */,
+				833AB5301DD9AD7E00877EE5 /* LFYChatImageCell.m */,
+			);
+			path = ChatCells;
+			sourceTree = "<group>";
+		};
+		83DDF6C11DCC365600B8B6A7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				835522A91DD5A7EF0037A30B /* Chat */,
+				83DDF6C71DCC379200B8B6A7 /* Base */,
+				83DDF6C61DCC370900B8B6A7 /* TabBar */,
+				83DDF6C41DCC370900B8B6A7 /* Home */,
+				83DDF6C21DCC370900B8B6A7 /* Contact */,
+				83DDF6C31DCC370900B8B6A7 /* Discovery */,
+				83DDF6C51DCC370900B8B6A7 /* Mine */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		83DDF6C21DCC370900B8B6A7 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				83DDF6D11DCC53E100B8B6A7 /* ContactVC.h */,
+				83DDF6D21DCC53E100B8B6A7 /* ContactVC.m */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		83DDF6C31DCC370900B8B6A7 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				83DDF6D41DCC53F600B8B6A7 /* DiscoveryVC.h */,
+				83DDF6D51DCC53F600B8B6A7 /* DiscoveryVC.m */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		83DDF6C41DCC370900B8B6A7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				83DDF6CE1DCC522D00B8B6A7 /* HomeVC.h */,
+				83DDF6CF1DCC522D00B8B6A7 /* HomeVC.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		83DDF6C51DCC370900B8B6A7 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				83DDF6D71DCC540100B8B6A7 /* MineVC.h */,
+				83DDF6D81DCC540100B8B6A7 /* MineVC.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		83DDF6C61DCC370900B8B6A7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				83DDF6CB1DCC38A300B8B6A7 /* LFYTabBarController.h */,
+				83DDF6CC1DCC38A300B8B6A7 /* LFYTabBarController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		83DDF6C71DCC379200B8B6A7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				83DDF6C81DCC384000B8B6A7 /* LFYBaseVC.h */,
+				83DDF6C91DCC384000B8B6A7 /* LFYBaseVC.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9221290D40E9B1B0EAABCC4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C886A20BAE7FFE52AFD3486B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACD5118BAD5D23823173D8D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE9C534F788CAF2151F5B5BB /* Pods.debug.xcconfig */,
+				921BE08A3A8FACA917304EA6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +330,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8302D6D61DCC20CF009E70E8 /* Build configuration list for PBXNativeTarget "Luffy_WeiXin" */;
 			buildPhases = (
+				87993F096CEB3609B6F51E04 /* Check Pods Manifest.lock */,
 				8302D6A51DCC20CE009E70E8 /* Sources */,
 				8302D6A61DCC20CE009E70E8 /* Frameworks */,
 				8302D6A71DCC20CE009E70E8 /* Resources */,
+				552E7DF748A1237A867C9CEF /* Embed Pods Frameworks */,
+				2597EBB43830B85BE7F2FD80 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,8 +435,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8302D6BC1DCC20CF009E70E8 /* LaunchScreen.storyboard in Resources */,
-				8302D6B91DCC20CF009E70E8 /* Assets.xcassets in Resources */,
+				833AB52A1DD991A700877EE5 /* IMG_0027.JPG in Resources */,
+				83DDF6DB1DCC6B7D00B8B6A7 /* Assets.xcassets in Resources */,
 				8302D6B71DCC20CF009E70E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,13 +457,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2597EBB43830B85BE7F2FD80 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		552E7DF748A1237A867C9CEF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87993F096CEB3609B6F51E04 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8302D6A51DCC20CE009E70E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833AB52E1DD9AD6400877EE5 /* LFYChatTextCell.m in Sources */,
+				83DDF6D31DCC53E100B8B6A7 /* ContactVC.m in Sources */,
+				833AB5311DD9AD7E00877EE5 /* LFYChatImageCell.m in Sources */,
+				83DDF6D61DCC53F600B8B6A7 /* DiscoveryVC.m in Sources */,
+				83DDF6CD1DCC38A300B8B6A7 /* LFYTabBarController.m in Sources */,
+				835522B41DD5AC030037A30B /* LFYMessage.m in Sources */,
+				83DDF6D91DCC540100B8B6A7 /* MineVC.m in Sources */,
 				8302D6B41DCC20CF009E70E8 /* ViewController.m in Sources */,
+				83DDF6CA1DCC384000B8B6A7 /* LFYBaseVC.m in Sources */,
+				835522B81DD5AE310037A30B /* LFYChatBaseCell.m in Sources */,
+				835522B11DD5AB690037A30B /* LFYMessageModel.m in Sources */,
+				83DDF6D01DCC522D00B8B6A7 /* HomeVC.m in Sources */,
 				8302D6B11DCC20CF009E70E8 /* AppDelegate.m in Sources */,
+				835522AE1DD5A8E20037A30B /* LFYChatViewController.m in Sources */,
 				8302D6AE1DCC20CF009E70E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,14 +566,6 @@
 				8302D6B61DCC20CF009E70E8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8302D6BA1DCC20CF009E70E8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8302D6BB1DCC20CF009E70E8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -423,10 +661,15 @@
 		};
 		8302D6D71DCC20CF009E70E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9C534F788CAF2151F5B5BB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9N6P88TN8F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Luffy_WeiXin/Luffy_WeiXin.pch;
 				INFOPLIST_FILE = Luffy_WeiXin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "luffy.Luffy-WeiXin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,10 +678,15 @@
 		};
 		8302D6D81DCC20CF009E70E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 921BE08A3A8FACA917304EA6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9N6P88TN8F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Luffy_WeiXin/Luffy_WeiXin.pch;
 				INFOPLIST_FILE = Luffy_WeiXin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "luffy.Luffy-WeiXin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +762,7 @@
 				8302D6D81DCC20CF009E70E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8302D6D91DCC20CF009E70E8 /* Build configuration list for PBXNativeTarget "Luffy_WeiXinTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +771,7 @@
 				8302D6DB1DCC20CF009E70E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8302D6DC1DCC20CF009E70E8 /* Build configuration list for PBXNativeTarget "Luffy_WeiXinUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +780,7 @@
 				8302D6DE1DCC20CF009E70E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

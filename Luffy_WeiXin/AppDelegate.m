@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LFYTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [_window makeKeyAndVisible];
+    _window.backgroundColor = [UIColor whiteColor];
+    [self showMainTabBarControllers];
+    [self setupNavBar];
     return YES;
 }
 
@@ -45,6 +50,21 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)showMainTabBarControllers{
+    _window.rootViewController = [LFYTabBarController new];
+}
+
+- (void)setupNavBar
+{
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
+    UINavigationBar *bar = [UINavigationBar appearance];
+    CGFloat rgb = 0.1;
+    bar.barTintColor = [UIColor colorWithRed:rgb green:rgb blue:rgb alpha:0.9];
+    bar.tintColor = [UIColor whiteColor];
+    bar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
 }
 
 
