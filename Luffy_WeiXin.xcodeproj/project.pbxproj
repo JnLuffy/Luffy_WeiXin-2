@@ -21,6 +21,23 @@
 		835522B11DD5AB690037A30B /* LFYMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 835522B01DD5AB690037A30B /* LFYMessageModel.m */; };
 		835522B41DD5AC030037A30B /* LFYMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 835522B31DD5AC030037A30B /* LFYMessage.m */; };
 		835522B81DD5AE310037A30B /* LFYChatBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 835522B71DD5AE310037A30B /* LFYChatBaseCell.m */; };
+		839D82C51DDEDF06008CEEE3 /* MLEmoji_Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 839D82A11DDEDF06008CEEE3 /* MLEmoji_Expression.bundle */; };
+		839D82C61DDEDF06008CEEE3 /* MLEmoji_Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 839D82A21DDEDF06008CEEE3 /* MLEmoji_Expression.plist */; };
+		839D82C71DDEDF06008CEEE3 /* MLEmoji_ExpressionImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 839D82A31DDEDF06008CEEE3 /* MLEmoji_ExpressionImage.plist */; };
+		839D82C81DDEDF06008CEEE3 /* MLEmojiLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D82A51DDEDF06008CEEE3 /* MLEmojiLabel.m */; };
+		839D82C91DDEDF06008CEEE3 /* NSAttributedString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D82AA1DDEDF06008CEEE3 /* NSAttributedString+MLLabel.m */; };
+		839D82CA1DDEDF06008CEEE3 /* NSMutableAttributedString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D82AC1DDEDF06008CEEE3 /* NSMutableAttributedString+MLLabel.m */; };
+		839D82CB1DDEDF06008CEEE3 /* NSString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D82AE1DDEDF06008CEEE3 /* NSString+MLLabel.m */; };
+		839D82CC1DDEDF06008CEEE3 /* MLExpressionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D82B11DDEDF06008CEEE3 /* MLExpressionManager.m */; };
+		839D82CD1DDEDF06008CEEE3 /* MLTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D82B31DDEDF06008CEEE3 /* MLTextAttachment.m */; };
+		839D82CE1DDEDF06008CEEE3 /* NSAttributedString+MLExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D82B51DDEDF06008CEEE3 /* NSAttributedString+MLExpression.m */; };
+		839D82CF1DDEDF06008CEEE3 /* NSString+MLExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D82B71DDEDF06008CEEE3 /* NSString+MLExpression.m */; };
+		839D82D01DDEDF06008CEEE3 /* MLLabelLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D82BB1DDEDF06008CEEE3 /* MLLabelLayoutManager.m */; };
+		839D82D11DDEDF06008CEEE3 /* MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D82BD1DDEDF06008CEEE3 /* MLLabel.m */; };
+		839D82D21DDEDF06008CEEE3 /* MLLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D82BF1DDEDF06008CEEE3 /* MLLinkLabel.m */; };
+		839D82D31DDEDF06008CEEE3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 839D82C01DDEDF06008CEEE3 /* LICENSE */; };
+		839D82D41DDEDF06008CEEE3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 839D82C11DDEDF06008CEEE3 /* README.md */; };
+		839D82D51DDEDF06008CEEE3 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D82C41DDEDF06008CEEE3 /* TTTAttributedLabel.m */; };
 		83DDF6CA1DCC384000B8B6A7 /* LFYBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDF6C91DCC384000B8B6A7 /* LFYBaseVC.m */; };
 		83DDF6CD1DCC38A300B8B6A7 /* LFYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDF6CC1DCC38A300B8B6A7 /* LFYTabBarController.m */; };
 		83DDF6D01DCC522D00B8B6A7 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDF6CF1DCC522D00B8B6A7 /* HomeVC.m */; };
@@ -76,6 +93,36 @@
 		835522B31DD5AC030037A30B /* LFYMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYMessage.m; sourceTree = "<group>"; };
 		835522B61DD5AE310037A30B /* LFYChatBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYChatBaseCell.h; sourceTree = "<group>"; };
 		835522B71DD5AE310037A30B /* LFYChatBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYChatBaseCell.m; sourceTree = "<group>"; };
+		839D82A11DDEDF06008CEEE3 /* MLEmoji_Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLEmoji_Expression.bundle; sourceTree = "<group>"; };
+		839D82A21DDEDF06008CEEE3 /* MLEmoji_Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MLEmoji_Expression.plist; sourceTree = "<group>"; };
+		839D82A31DDEDF06008CEEE3 /* MLEmoji_ExpressionImage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MLEmoji_ExpressionImage.plist; sourceTree = "<group>"; };
+		839D82A41DDEDF06008CEEE3 /* MLEmojiLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLEmojiLabel.h; sourceTree = "<group>"; };
+		839D82A51DDEDF06008CEEE3 /* MLEmojiLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLEmojiLabel.m; sourceTree = "<group>"; };
+		839D82A91DDEDF06008CEEE3 /* NSAttributedString+MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MLLabel.h"; sourceTree = "<group>"; };
+		839D82AA1DDEDF06008CEEE3 /* NSAttributedString+MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MLLabel.m"; sourceTree = "<group>"; };
+		839D82AB1DDEDF06008CEEE3 /* NSMutableAttributedString+MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+MLLabel.h"; sourceTree = "<group>"; };
+		839D82AC1DDEDF06008CEEE3 /* NSMutableAttributedString+MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+MLLabel.m"; sourceTree = "<group>"; };
+		839D82AD1DDEDF06008CEEE3 /* NSString+MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MLLabel.h"; sourceTree = "<group>"; };
+		839D82AE1DDEDF06008CEEE3 /* NSString+MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MLLabel.m"; sourceTree = "<group>"; };
+		839D82B01DDEDF06008CEEE3 /* MLExpressionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLExpressionManager.h; sourceTree = "<group>"; };
+		839D82B11DDEDF06008CEEE3 /* MLExpressionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLExpressionManager.m; sourceTree = "<group>"; };
+		839D82B21DDEDF06008CEEE3 /* MLTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTextAttachment.h; sourceTree = "<group>"; };
+		839D82B31DDEDF06008CEEE3 /* MLTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTextAttachment.m; sourceTree = "<group>"; };
+		839D82B41DDEDF06008CEEE3 /* NSAttributedString+MLExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MLExpression.h"; sourceTree = "<group>"; };
+		839D82B51DDEDF06008CEEE3 /* NSAttributedString+MLExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MLExpression.m"; sourceTree = "<group>"; };
+		839D82B61DDEDF06008CEEE3 /* NSString+MLExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MLExpression.h"; sourceTree = "<group>"; };
+		839D82B71DDEDF06008CEEE3 /* NSString+MLExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MLExpression.m"; sourceTree = "<group>"; };
+		839D82B91DDEDF06008CEEE3 /* MLLabel+Override.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MLLabel+Override.h"; sourceTree = "<group>"; };
+		839D82BA1DDEDF06008CEEE3 /* MLLabelLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLabelLayoutManager.h; sourceTree = "<group>"; };
+		839D82BB1DDEDF06008CEEE3 /* MLLabelLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLabelLayoutManager.m; sourceTree = "<group>"; };
+		839D82BC1DDEDF06008CEEE3 /* MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLabel.h; sourceTree = "<group>"; };
+		839D82BD1DDEDF06008CEEE3 /* MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLabel.m; sourceTree = "<group>"; };
+		839D82BE1DDEDF06008CEEE3 /* MLLinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLinkLabel.h; sourceTree = "<group>"; };
+		839D82BF1DDEDF06008CEEE3 /* MLLinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLinkLabel.m; sourceTree = "<group>"; };
+		839D82C01DDEDF06008CEEE3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		839D82C11DDEDF06008CEEE3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		839D82C31DDEDF06008CEEE3 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		839D82C41DDEDF06008CEEE3 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
 		83DDF6C81DCC384000B8B6A7 /* LFYBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYBaseVC.h; sourceTree = "<group>"; };
 		83DDF6C91DCC384000B8B6A7 /* LFYBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYBaseVC.m; sourceTree = "<group>"; };
 		83DDF6CB1DCC38A300B8B6A7 /* LFYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYTabBarController.h; sourceTree = "<group>"; };
@@ -88,7 +135,7 @@
 		83DDF6D51DCC53F600B8B6A7 /* DiscoveryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryVC.m; sourceTree = "<group>"; };
 		83DDF6D71DCC540100B8B6A7 /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
 		83DDF6D81DCC540100B8B6A7 /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
-		83DDF6DA1DCC6B7D00B8B6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83DDF6DA1DCC6B7D00B8B6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		921BE08A3A8FACA917304EA6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C886A20BAE7FFE52AFD3486B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9C534F788CAF2151F5B5BB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,12 +193,12 @@
 			isa = PBXGroup;
 			children = (
 				83DDF6C11DCC365600B8B6A7 /* ViewControllers */,
+				839D829F1DDEDF06008CEEE3 /* Vender */,
 				8302D6AF1DCC20CF009E70E8 /* AppDelegate.h */,
 				8302D6B01DCC20CF009E70E8 /* AppDelegate.m */,
 				8302D6B21DCC20CF009E70E8 /* ViewController.h */,
 				8302D6B31DCC20CF009E70E8 /* ViewController.m */,
 				8302D6B51DCC20CF009E70E8 /* Main.storyboard */,
-				83DDF6DA1DCC6B7D00B8B6A7 /* Assets.xcassets */,
 				833AB52B1DD99B7900877EE5 /* Resource */,
 				8302D6AC1DCC20CF009E70E8 /* Supporting Files */,
 			);
@@ -189,6 +236,7 @@
 		833AB52B1DD99B7900877EE5 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				83DDF6DA1DCC6B7D00B8B6A7 /* Assets.xcassets */,
 				833AB5291DD991A700877EE5 /* IMG_0027.JPG */,
 			);
 			path = Resource;
@@ -236,6 +284,99 @@
 				833AB5301DD9AD7E00877EE5 /* LFYChatImageCell.m */,
 			);
 			path = ChatCells;
+			sourceTree = "<group>";
+		};
+		839D829F1DDEDF06008CEEE3 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				839D82A01DDEDF06008CEEE3 /* MLEmojiLabel */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		839D82A01DDEDF06008CEEE3 /* MLEmojiLabel */ = {
+			isa = PBXGroup;
+			children = (
+				839D82A11DDEDF06008CEEE3 /* MLEmoji_Expression.bundle */,
+				839D82A21DDEDF06008CEEE3 /* MLEmoji_Expression.plist */,
+				839D82A31DDEDF06008CEEE3 /* MLEmoji_ExpressionImage.plist */,
+				839D82A41DDEDF06008CEEE3 /* MLEmojiLabel.h */,
+				839D82A51DDEDF06008CEEE3 /* MLEmojiLabel.m */,
+				839D82A61DDEDF06008CEEE3 /* MLLabel */,
+				839D82C21DDEDF06008CEEE3 /* TTTAttributedLabel */,
+			);
+			path = MLEmojiLabel;
+			sourceTree = "<group>";
+		};
+		839D82A61DDEDF06008CEEE3 /* MLLabel */ = {
+			isa = PBXGroup;
+			children = (
+				839D82A71DDEDF06008CEEE3 /* Classes */,
+				839D82C01DDEDF06008CEEE3 /* LICENSE */,
+				839D82C11DDEDF06008CEEE3 /* README.md */,
+			);
+			path = MLLabel;
+			sourceTree = "<group>";
+		};
+		839D82A71DDEDF06008CEEE3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				839D82A81DDEDF06008CEEE3 /* Category */,
+				839D82AF1DDEDF06008CEEE3 /* Expression */,
+				839D82B81DDEDF06008CEEE3 /* Helper */,
+				839D82BC1DDEDF06008CEEE3 /* MLLabel.h */,
+				839D82BD1DDEDF06008CEEE3 /* MLLabel.m */,
+				839D82BE1DDEDF06008CEEE3 /* MLLinkLabel.h */,
+				839D82BF1DDEDF06008CEEE3 /* MLLinkLabel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		839D82A81DDEDF06008CEEE3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				839D82A91DDEDF06008CEEE3 /* NSAttributedString+MLLabel.h */,
+				839D82AA1DDEDF06008CEEE3 /* NSAttributedString+MLLabel.m */,
+				839D82AB1DDEDF06008CEEE3 /* NSMutableAttributedString+MLLabel.h */,
+				839D82AC1DDEDF06008CEEE3 /* NSMutableAttributedString+MLLabel.m */,
+				839D82AD1DDEDF06008CEEE3 /* NSString+MLLabel.h */,
+				839D82AE1DDEDF06008CEEE3 /* NSString+MLLabel.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		839D82AF1DDEDF06008CEEE3 /* Expression */ = {
+			isa = PBXGroup;
+			children = (
+				839D82B01DDEDF06008CEEE3 /* MLExpressionManager.h */,
+				839D82B11DDEDF06008CEEE3 /* MLExpressionManager.m */,
+				839D82B21DDEDF06008CEEE3 /* MLTextAttachment.h */,
+				839D82B31DDEDF06008CEEE3 /* MLTextAttachment.m */,
+				839D82B41DDEDF06008CEEE3 /* NSAttributedString+MLExpression.h */,
+				839D82B51DDEDF06008CEEE3 /* NSAttributedString+MLExpression.m */,
+				839D82B61DDEDF06008CEEE3 /* NSString+MLExpression.h */,
+				839D82B71DDEDF06008CEEE3 /* NSString+MLExpression.m */,
+			);
+			path = Expression;
+			sourceTree = "<group>";
+		};
+		839D82B81DDEDF06008CEEE3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				839D82B91DDEDF06008CEEE3 /* MLLabel+Override.h */,
+				839D82BA1DDEDF06008CEEE3 /* MLLabelLayoutManager.h */,
+				839D82BB1DDEDF06008CEEE3 /* MLLabelLayoutManager.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		839D82C21DDEDF06008CEEE3 /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				839D82C31DDEDF06008CEEE3 /* TTTAttributedLabel.h */,
+				839D82C41DDEDF06008CEEE3 /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
 			sourceTree = "<group>";
 		};
 		83DDF6C11DCC365600B8B6A7 /* ViewControllers */ = {
@@ -435,8 +576,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839D82C61DDEDF06008CEEE3 /* MLEmoji_Expression.plist in Resources */,
 				833AB52A1DD991A700877EE5 /* IMG_0027.JPG in Resources */,
+				839D82C51DDEDF06008CEEE3 /* MLEmoji_Expression.bundle in Resources */,
+				839D82D31DDEDF06008CEEE3 /* LICENSE in Resources */,
 				83DDF6DB1DCC6B7D00B8B6A7 /* Assets.xcassets in Resources */,
+				839D82C71DDEDF06008CEEE3 /* MLEmoji_ExpressionImage.plist in Resources */,
 				8302D6B71DCC20CF009E70E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,16 +656,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				833AB52E1DD9AD6400877EE5 /* LFYChatTextCell.m in Sources */,
+				839D82D21DDEDF06008CEEE3 /* MLLinkLabel.m in Sources */,
 				83DDF6D31DCC53E100B8B6A7 /* ContactVC.m in Sources */,
+				839D82D51DDEDF06008CEEE3 /* TTTAttributedLabel.m in Sources */,
 				833AB5311DD9AD7E00877EE5 /* LFYChatImageCell.m in Sources */,
+				839D82D01DDEDF06008CEEE3 /* MLLabelLayoutManager.m in Sources */,
 				83DDF6D61DCC53F600B8B6A7 /* DiscoveryVC.m in Sources */,
 				83DDF6CD1DCC38A300B8B6A7 /* LFYTabBarController.m in Sources */,
+				839D82CB1DDEDF06008CEEE3 /* NSString+MLLabel.m in Sources */,
+				839D82CF1DDEDF06008CEEE3 /* NSString+MLExpression.m in Sources */,
 				835522B41DD5AC030037A30B /* LFYMessage.m in Sources */,
+				839D82C81DDEDF06008CEEE3 /* MLEmojiLabel.m in Sources */,
 				83DDF6D91DCC540100B8B6A7 /* MineVC.m in Sources */,
+				839D82D11DDEDF06008CEEE3 /* MLLabel.m in Sources */,
 				8302D6B41DCC20CF009E70E8 /* ViewController.m in Sources */,
 				83DDF6CA1DCC384000B8B6A7 /* LFYBaseVC.m in Sources */,
+				839D82D41DDEDF06008CEEE3 /* README.md in Sources */,
+				839D82CA1DDEDF06008CEEE3 /* NSMutableAttributedString+MLLabel.m in Sources */,
+				839D82CE1DDEDF06008CEEE3 /* NSAttributedString+MLExpression.m in Sources */,
+				839D82CC1DDEDF06008CEEE3 /* MLExpressionManager.m in Sources */,
 				835522B81DD5AE310037A30B /* LFYChatBaseCell.m in Sources */,
 				835522B11DD5AB690037A30B /* LFYMessageModel.m in Sources */,
+				839D82CD1DDEDF06008CEEE3 /* MLTextAttachment.m in Sources */,
+				839D82C91DDEDF06008CEEE3 /* NSAttributedString+MLLabel.m in Sources */,
 				83DDF6D01DCC522D00B8B6A7 /* HomeVC.m in Sources */,
 				8302D6B11DCC20CF009E70E8 /* AppDelegate.m in Sources */,
 				835522AE1DD5A8E20037A30B /* LFYChatViewController.m in Sources */,

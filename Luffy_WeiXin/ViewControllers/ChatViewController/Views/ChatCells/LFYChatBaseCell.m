@@ -46,16 +46,19 @@
 - (void)setupBaseCellViews{
     _avatarView  = ({
         UIImageView *avatarView = [UIImageView new];
-        avatarView.backgroundColor = [UIColor redColor];
-//        avatarView.image = [UIImage imageNamed:@"IMG_0027.JPG"];
+//        avatarView.backgroundColor = [UIColor redColor];
+        avatarView.image = [UIImage imageNamed:@"IMG_0027.JPG"];
         [self.contentView addSubview:avatarView];
         avatarView;
     });
     
     _bubbleView = ({
         UIImageView *bubbleView = [UIImageView new];
-        bubbleView.backgroundColor = [UIColor grayColor];
+//        bubbleView.backgroundColor = [UIColor grayColor];
         [self.contentView addSubview:bubbleView];
+//        bubbleView.contentMode = UIViewContentModeCenter;
+//        [bubbleView setContentCompressionResistancePriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
+    
         bubbleView;
     });
     
