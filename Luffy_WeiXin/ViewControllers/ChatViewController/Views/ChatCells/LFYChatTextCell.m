@@ -65,6 +65,7 @@
             make.bottom.equalTo(self.contentView.mas_bottom).offset(-20);
 
         }];
+        
         self.bubbleView.image = [[UIImage imageNamed:@"SenderTextNodeBkg"] stretchableImageWithLeftCapWidth:30 topCapHeight:30];
         
     }else{
@@ -81,10 +82,10 @@
         [self.bubbleView  mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(_messageLabel).insets(UIEdgeInsetsMake(-10, -15, -10, -15));
             make.bottom.equalTo(self.contentView.mas_bottom).offset(-20);
-
         }];
-         self.bubbleView.image = [[UIImage imageNamed:@"ReceiverTextNodeBkg"] stretchableImageWithLeftCapWidth:50 topCapHeight:30];
+       
         
+        self.bubbleView.image = [[UIImage imageNamed:@"ReceiverTextNodeBkg"] stretchableImageWithLeftCapWidth:30 topCapHeight:30];
     }
     
     
