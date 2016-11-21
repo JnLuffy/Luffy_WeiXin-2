@@ -56,7 +56,7 @@
         [_messageLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.right.equalTo(self.avatarView.mas_left).offset(-20);
             make.top.equalTo(self.avatarView.mas_top).offset(10);
-            make.left.greaterThanOrEqualTo(self.contentView.mas_left).offset(60);
+            make.left.greaterThanOrEqualTo(self.contentView.mas_left).offset(80);
 
         }];
         
@@ -74,7 +74,7 @@
         [_messageLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(self.avatarView.mas_right).offset(20);
             make.top.equalTo(self.avatarView.mas_top).offset(10);
-            make.right.lessThanOrEqualTo(self.contentView.mas_right).offset(-60);
+            make.right.lessThanOrEqualTo(self.contentView.mas_right).offset(-80);
 //            make.bottom.equalTo(self.contentView.mas_bottom).offset(-15);
 
         }];
@@ -92,10 +92,10 @@
 }
 
 #pragma mark - Seter
--(void)setModel:(NSString *)model{
-    self.messageLabel.text = model;
+-(void)setModel:(LFYMessageModel *)model{
+    self.messageLabel.text = model.text;
     
-        NSLog(@"message = %@",model);
+//        NSLog(@"message = %@",model);
 }
 
 

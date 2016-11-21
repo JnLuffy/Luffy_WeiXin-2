@@ -19,7 +19,7 @@
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    
+    NSLog(@"DTAG %@",reuseIdentifier);
     if (self)
     {
         self.backgroundColor = [UIColor clearColor];
@@ -46,7 +46,6 @@
 - (void)setupBaseCellViews{
     _avatarView  = ({
         UIImageView *avatarView = [UIImageView new];
-//        avatarView.backgroundColor = [UIColor redColor];
         avatarView.image = [UIImage imageNamed:@"IMG_0027.JPG"];
         [self.contentView addSubview:avatarView];
         avatarView;
@@ -54,11 +53,7 @@
     
     _bubbleView = ({
         UIImageView *bubbleView = [UIImageView new];
-//        bubbleView.backgroundColor = [UIColor grayColor];
         [self.contentView addSubview:bubbleView];
-//        bubbleView.contentMode = UIViewContentModeCenter;
-//        [bubbleView setContentCompressionResistancePriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
-    
         bubbleView;
     });
     
@@ -75,7 +70,6 @@
         
     }else{
         
-        
         [_avatarView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.height.width.equalTo(@35);
             make.left.equalTo(self.contentView.mas_left).offset(10);
@@ -89,9 +83,9 @@
 
 #pragma mark - Seter
 
--(void)setModel:(NSString *)model{
+-(void)setModel:(LFYMessageModel *)model{
     
-    NSLog(@"base message = %@",model);
+//    NSLog(@"base message = %@",model);
 }
 
 

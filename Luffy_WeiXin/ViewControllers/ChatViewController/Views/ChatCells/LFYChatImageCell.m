@@ -17,7 +17,10 @@
      *  @brief  图片所在ImageView
      */
     UIImageView *imageView;
+    UIView *spaceView;//图片与底部中间的View
 }
+@property(nonatomic,strong)MASConstraint *imageViewHeightConstraint;
+@property(nonatomic,strong)MASConstraint *imageViewWidthConstraint;
 @end
 @implementation LFYChatImageCell
 
@@ -43,11 +46,17 @@
 
 #pragma mark - Private Method
 
-//isSender
+
 - (void)setupViews{
+
+    
     imageView = [UIImageView new];
     [self.contentView addSubview:imageView];
     imageView.contentMode = UIViewContentModeScaleToFill;
+    imageView.mas_key = @"thisImageView";
+    
+    spaceView = [UIView new];
+    [self.contentView addSubview:spaceView];
     
 }
 
@@ -56,25 +65,33 @@
         [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.right.equalTo(self.avatarView.mas_left).offset(-10);
             make.top.equalTo(self.avatarView.mas_top);
-//            make.left.greaterThanOrEqualTo(self.contentView.mas_left).offset(50);
-            make.bottom.equalTo(self.contentView.mas_bottom).offset(-10);
+            _imageViewHeightConstraint = make.height.equalTo(@0);
+            _imageViewWidthConstraint = make.width.equalTo(@0);
+
         }];
+        self.bubbleView.image = [[UIImage imageNamed:@"SenderTextNodeBkg"] stretchableImageWithLeftCapWidth:30 topCapHeight:30];
     }else{
         [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(self.avatarView.mas_right).offset(10);
             make.top.equalTo(self.avatarView.mas_top);
-//            make.right.greaterThanOrEqualTo(self.contentView.mas_right).offset(-50);
-            make.bottom.equalTo(self.contentView.mas_bottom).offset(-10);
-
+            _imageViewHeightConstraint = make.height.equalTo(@0);
+            _imageViewWidthConstraint = make.width.equalTo(@0);
         }];
-
+        self.bubbleView.image = [[UIImage imageNamed:@"ReceiverTextNodeBkg"] stretchableImageWithLeftCapWidth:30 topCapHeight:30];
     }
-  
     
+    [spaceView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.equalTo(self.contentView);
+        make.top.equalTo(imageView.mas_bottom);
+//        make.height.equalTo(@1);
+        make.bottom.equalTo(self.contentView.mas_bottom).offset(-20);
+
+    }];
+
 }
 
 #pragma mark - Seter
--(void)setModel:(NSString *)model{
+-(void)setModel:(LFYMessageModel *)model{
     imageView.image = [UIImage imageNamed:@"IMG_0027.JPG"];
     // 根据图片的宽高尺寸设置图片约束
     CGFloat standardWidthHeightRatio = kMaxChatImageViewWidth / kMaxChatImageViewHeight;
@@ -96,15 +113,22 @@
         }
     }
     
+
+    //设置图片的宽高
+    _imageViewHeightConstraint.mas_equalTo(h);
+    _imageViewWidthConstraint.mas_equalTo(w);
     [imageView mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.height.mas_equalTo(h);
-        make.width.mas_equalTo(w);
+        make.width.equalTo(@(w));
+        make.height.equalTo(@(h));
     }];
+
+
+    CALayer *layer  = self.bubbleView.layer;
+    layer.frame  = (CGRect){{0,0},{w,h}};
     
+    imageView.layer.mask = layer;
+   
 
-
-//    self.messageLabel.text = model;
-    //    NSLog(@"message = %@",model);
 }
 
 

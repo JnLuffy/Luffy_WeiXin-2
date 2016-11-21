@@ -11,11 +11,9 @@
 #import "LFYChatBaseCell.h"
 #import "LFYChatTextCell.h"
 #import "LFYChatImageCell.h"
+#import "LFYMessageModel.h"
 
-#define kCellReuseIDWithSenderAndType(isSender,chatCellType)    ([NSString stringWithFormat:@"%@-%@",isSender,chatCellType])
 
-//根据模型得到可重用Cell的 重用ID
-#define kCellReuseID(model)      ((model.chatCellType.integerValue == WSChatCellType_Time)?kTimeCellReusedID:(kCellReuseIDWithSenderAndType(model.isSender,model.chatCellType)))
 
 
 @interface LFYChatViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -45,7 +43,37 @@
 #pragma mark - Private Method
 
 - (void)initDatas {
-    _dataSource = [[NSMutableArray alloc]initWithObjects:@"顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶v顶顶顶顶的神烦大叔",@"我是炉顶顶顶顶顶大大大石",@"我是炉石",@"我是炉石",@"我是炉石",@"你好啊",@"哈哈哈哈哈",nil];
+    LFYMessageModel *model0 = [LFYMessageModel new];
+    model0.text = @"哈哈哈哈哈";
+    model0.chatCellType = @(1);
+    model0.isSender = @(1);
+    if(!_dataSource){
+        _dataSource = [[NSMutableArray alloc]init];
+        
+    }
+    
+    LFYMessageModel *model1 = [LFYMessageModel new];
+    model1.text = @"我是马云";
+    model1.chatCellType = @(1);
+    model1.isSender = @(0);
+    
+    
+    LFYMessageModel *model2 = [LFYMessageModel new];
+    model2.imageName = @"xxx.png";
+    model2.chatCellType = @(2);
+    model2.isSender = @(0);
+    
+    
+    LFYMessageModel *model3 = [LFYMessageModel new];
+    model3.imageName = @"xxx.png";
+    model3.chatCellType = @(2);
+    model3.isSender = @(1);
+    
+    [_dataSource addObject:model0];
+    [_dataSource addObject:model1];
+    [_dataSource addObject:model2];
+    [_dataSource addObject:model3];
+
     
 }
 
@@ -63,10 +91,17 @@
             make.edges.equalTo(self.view);
         }];
         tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-        [tableView registerClass:[LFYChatTextCell class] forCellReuseIdentifier:@"0-1"];
-        [tableView registerClass:[LFYChatTextCell class] forCellReuseIdentifier:@"1-1"];
-        [tableView registerClass:[LFYChatImageCell class] forCellReuseIdentifier:@"0-2"];
-        [tableView registerClass:[LFYChatImageCell class] forCellReuseIdentifier:@"1-2"];
+        
+
+        
+        [tableView registerClass:[LFYChatTextCell class] forCellReuseIdentifier:kCellReuseIDWithSenderAndType(@1,@(LFYChatCellType_Text))];
+        [tableView registerClass:[LFYChatTextCell class] forCellReuseIdentifier:kCellReuseIDWithSenderAndType(@0,@(LFYChatCellType_Text))];
+        
+        [tableView registerClass:[LFYChatImageCell class] forCellReuseIdentifier:kCellReuseIDWithSenderAndType(@1, @(LFYChatCellType_Image))];
+        [tableView registerClass:[LFYChatImageCell class] forCellReuseIdentifier:kCellReuseIDWithSenderAndType(@0, @(LFYChatCellType_Image))];
+        
+
+
         tableView;
     });
   
@@ -90,27 +125,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    LFYChatBaseCell *cell ;
-    if(indexPath.row == 2){
-        cell = [tableView dequeueReusableCellWithIdentifier:@"1-2" forIndexPath:indexPath];
+    LFYMessageModel *model = _dataSource[indexPath.row];
+    LFYChatBaseCell * cell = [tableView dequeueReusableCellWithIdentifier:kCellReuseID(model) forIndexPath:indexPath];
         [self configureCell:cell atIndexPath:indexPath];
         return cell;
-    }
-    if(indexPath.row == 3){
-        cell = [tableView dequeueReusableCellWithIdentifier:@"0-2" forIndexPath:indexPath];
-        [self configureCell:cell atIndexPath:indexPath];
-        return cell;
-    }
-    if(indexPath.row %2 == 0){
-         cell = [tableView dequeueReusableCellWithIdentifier:@"1-1" forIndexPath:indexPath];
-        [self configureCell:cell atIndexPath:indexPath];
 
-    }else{
-         cell = [tableView dequeueReusableCellWithIdentifier:@"0-1" forIndexPath:indexPath];
-        [self configureCell:cell atIndexPath:indexPath];
-
-    }
-//
     return cell;
    
 }
@@ -119,39 +138,11 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    
-    if(indexPath.row == 2){
-        return [self.tableView fd_heightForCellWithIdentifier:@"1-2" cacheByIndexPath:indexPath configuration:^(LFYChatBaseCell *cell) {
-            [self configureCell:cell atIndexPath:indexPath];
-            
-        }];
-    }
-    if(indexPath.row == 3){
-        return [self.tableView fd_heightForCellWithIdentifier:@"0-2" cacheByIndexPath:indexPath configuration:^(LFYChatBaseCell *cell) {
-            [self configureCell:cell atIndexPath:indexPath];
-            
-        }];
-    }
-    
-    if(indexPath.row %2 == 0){
-     
-        return [self.tableView fd_heightForCellWithIdentifier:@"1-1" cacheByIndexPath:indexPath configuration:^(LFYChatBaseCell *cell) {
-            [self configureCell:cell atIndexPath:indexPath];
-          
-        }];
-        
-        
-    }else{
-     
-        return [self.tableView fd_heightForCellWithIdentifier:@"0-1" cacheByIndexPath:indexPath configuration:^(LFYChatBaseCell *cell) {
+        LFYMessageModel *model = _dataSource[indexPath.row];
+        return [self.tableView fd_heightForCellWithIdentifier:kCellReuseID(model) cacheByIndexPath:indexPath configuration:^(LFYChatBaseCell *cell) {
             [self configureCell:cell atIndexPath:indexPath];
 
         }];
-    }
-    
-
-
-
     
 }
 

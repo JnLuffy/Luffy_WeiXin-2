@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "LFYMessageModel.h"
 
+
 #define kReuseIDSeparate               (@"-") //可重用ID字符串区分符号
 #define kChatCellIconImageViewWH 35.f //头像长度和宽度
 
@@ -26,6 +27,6 @@
 @property(nonatomic,strong)UIImageView *bubbleView;
 @property(nonatomic,strong)UIImageView *avatarView;
 
-@property(nonatomic,copy) NSString *model;
+@property(nonatomic,copy) LFYMessageModel *model;
 
 @end
