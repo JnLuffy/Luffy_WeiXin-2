@@ -89,7 +89,7 @@
         tableView.showsVerticalScrollIndicator = NO;
         tableView.showsHorizontalScrollIndicator = NO;
         [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.edges.equalTo(self.view).insets(UIEdgeInsetsMake(0, 0, -49, 0));
+            make.edges.equalTo(self.view).insets(UIEdgeInsetsMake(0, 0, 49, 0));
         }];
         tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         
@@ -101,20 +101,19 @@
         [tableView registerClass:[LFYChatImageCell class] forCellReuseIdentifier:kCellReuseIDWithSenderAndType(@1, @(LFYChatCellType_Image))];
         [tableView registerClass:[LFYChatImageCell class] forCellReuseIdentifier:kCellReuseIDWithSenderAndType(@0, @(LFYChatCellType_Image))];
         
-
-
         tableView;
     });
   
     _inputBar = ({
         LFYChatMessageInputBar *inputBar = [LFYChatMessageInputBar new];
+        [self.view addSubview:inputBar];
         [inputBar mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.right.bottom.equalTo(self.view);
-            make.top.equalTo(_tableView);
+            make.top.equalTo(_tableView.mas_bottom);
         }];
         inputBar;
     });
-    [self.view addSubview:self.inputBar];
+
 
     
     
