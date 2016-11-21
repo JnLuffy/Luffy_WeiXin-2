@@ -21,6 +21,7 @@
 		835522B11DD5AB690037A30B /* LFYMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 835522B01DD5AB690037A30B /* LFYMessageModel.m */; };
 		835522B41DD5AC030037A30B /* LFYMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 835522B31DD5AC030037A30B /* LFYMessage.m */; };
 		835522B81DD5AE310037A30B /* LFYChatBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 835522B71DD5AE310037A30B /* LFYChatBaseCell.m */; };
+		8374D4BC1DE2FA9B005A39C1 /* LFYChatMessageInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8374D4BB1DE2FA9B005A39C1 /* LFYChatMessageInputBar.m */; };
 		839D82C51DDEDF06008CEEE3 /* MLEmoji_Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 839D82A11DDEDF06008CEEE3 /* MLEmoji_Expression.bundle */; };
 		839D82C61DDEDF06008CEEE3 /* MLEmoji_Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 839D82A21DDEDF06008CEEE3 /* MLEmoji_Expression.plist */; };
 		839D82C71DDEDF06008CEEE3 /* MLEmoji_ExpressionImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 839D82A31DDEDF06008CEEE3 /* MLEmoji_ExpressionImage.plist */; };
@@ -93,6 +94,8 @@
 		835522B31DD5AC030037A30B /* LFYMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYMessage.m; sourceTree = "<group>"; };
 		835522B61DD5AE310037A30B /* LFYChatBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYChatBaseCell.h; sourceTree = "<group>"; };
 		835522B71DD5AE310037A30B /* LFYChatBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYChatBaseCell.m; sourceTree = "<group>"; };
+		8374D4BA1DE2FA9B005A39C1 /* LFYChatMessageInputBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYChatMessageInputBar.h; sourceTree = "<group>"; };
+		8374D4BB1DE2FA9B005A39C1 /* LFYChatMessageInputBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYChatMessageInputBar.m; sourceTree = "<group>"; };
 		839D82A11DDEDF06008CEEE3 /* MLEmoji_Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLEmoji_Expression.bundle; sourceTree = "<group>"; };
 		839D82A21DDEDF06008CEEE3 /* MLEmoji_Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MLEmoji_Expression.plist; sourceTree = "<group>"; };
 		839D82A31DDEDF06008CEEE3 /* MLEmoji_ExpressionImage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MLEmoji_ExpressionImage.plist; sourceTree = "<group>"; };
@@ -269,6 +272,8 @@
 			isa = PBXGroup;
 			children = (
 				835522B51DD5ADC60037A30B /* ChatCells */,
+				8374D4BA1DE2FA9B005A39C1 /* LFYChatMessageInputBar.h */,
+				8374D4BB1DE2FA9B005A39C1 /* LFYChatMessageInputBar.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -671,6 +676,7 @@
 				839D82D11DDEDF06008CEEE3 /* MLLabel.m in Sources */,
 				8302D6B41DCC20CF009E70E8 /* ViewController.m in Sources */,
 				83DDF6CA1DCC384000B8B6A7 /* LFYBaseVC.m in Sources */,
+				8374D4BC1DE2FA9B005A39C1 /* LFYChatMessageInputBar.m in Sources */,
 				839D82D41DDEDF06008CEEE3 /* README.md in Sources */,
 				839D82CA1DDEDF06008CEEE3 /* NSMutableAttributedString+MLLabel.m in Sources */,
 				839D82CE1DDEDF06008CEEE3 /* NSAttributedString+MLExpression.m in Sources */,

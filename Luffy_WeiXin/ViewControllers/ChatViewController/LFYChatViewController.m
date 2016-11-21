@@ -12,12 +12,13 @@
 #import "LFYChatTextCell.h"
 #import "LFYChatImageCell.h"
 #import "LFYMessageModel.h"
-
+#import "LFYChatMessageInputBar.h"
 
 
 
 @interface LFYChatViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
+@property(nonatomic,strong)LFYChatMessageInputBar *inputBar;
 @property(nonatomic,copy)NSMutableArray *dataSource;
 @end
 
@@ -88,7 +89,7 @@
         tableView.showsVerticalScrollIndicator = NO;
         tableView.showsHorizontalScrollIndicator = NO;
         [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.edges.equalTo(self.view);
+            make.edges.equalTo(self.view).insets(UIEdgeInsetsMake(0, 0, -49, 0));
         }];
         tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         
@@ -105,6 +106,16 @@
         tableView;
     });
   
+    _inputBar = ({
+        LFYChatMessageInputBar *inputBar = [LFYChatMessageInputBar new];
+        [inputBar mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.right.bottom.equalTo(self.view);
+            make.top.equalTo(_tableView);
+        }];
+        inputBar;
+    });
+    [self.view addSubview:self.inputBar];
+
     
     
 }
