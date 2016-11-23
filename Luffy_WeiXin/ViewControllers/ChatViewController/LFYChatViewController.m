@@ -16,6 +16,7 @@
 
 
 
+
 @interface LFYChatViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)LFYChatMessageInputBar *inputBar;
@@ -35,6 +36,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
     self.navigationItem.title = @"马云";
     [self initDatas];
     [self setupViews];
@@ -79,6 +83,11 @@
 }
 
 - (void)setupViews {
+  
+  
+
+    
+
     _tableView = ({
         UITableView *tableView = [[UITableView alloc]init];
         tableView.delegate = self;
@@ -89,11 +98,11 @@
         tableView.showsVerticalScrollIndicator = NO;
         tableView.showsHorizontalScrollIndicator = NO;
         [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.edges.equalTo(self.view).insets(UIEdgeInsetsMake(0, 0, 49, 0));
+            make.top.left.right.equalTo(self.view);
+            make.bottom.equalTo(self.view.mas_bottom).offset(-49);
         }];
         tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         
-
         
         [tableView registerClass:[LFYChatTextCell class] forCellReuseIdentifier:kCellReuseIDWithSenderAndType(@1,@(LFYChatCellType_Text))];
         [tableView registerClass:[LFYChatTextCell class] forCellReuseIdentifier:kCellReuseIDWithSenderAndType(@0,@(LFYChatCellType_Text))];
@@ -103,19 +112,21 @@
         
         tableView;
     });
-  
+
     _inputBar = ({
         LFYChatMessageInputBar *inputBar = [LFYChatMessageInputBar new];
         [self.view addSubview:inputBar];
         [inputBar mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.right.bottom.equalTo(self.view);
-            make.top.equalTo(_tableView.mas_bottom);
+            make.left.right.equalTo(self.view);
+            make.height.equalTo(@(HEIGHT_TEXTVIEW));
+            make.bottom.equalTo(self.view.mas_bottom);
         }];
+        
         inputBar;
     });
-
-
     
+    
+//    [_tableView setContentCompressionResistancePriority:UILayoutPriorityFittingSizeLevel forAxis:UILayoutConstraintAxisVertical];
     
 }
 
@@ -160,7 +171,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+    [self.view endEditing:YES];
 }
 
 
@@ -168,6 +179,12 @@
     cell.fd_enforceFrameLayout = NO; // Enable to use "-sizeThatFits:"
     cell.model = _dataSource[indexPath.row];
 }
+
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+{
+    [self.view endEditing:YES];
+}
+
 
 
 @end

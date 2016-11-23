@@ -96,6 +96,7 @@
 		835522B71DD5AE310037A30B /* LFYChatBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYChatBaseCell.m; sourceTree = "<group>"; };
 		8374D4BA1DE2FA9B005A39C1 /* LFYChatMessageInputBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYChatMessageInputBar.h; sourceTree = "<group>"; };
 		8374D4BB1DE2FA9B005A39C1 /* LFYChatMessageInputBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYChatMessageInputBar.m; sourceTree = "<group>"; };
+		8374D4BD1DE3DA7F005A39C1 /* LFYChatConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFYChatConst.h; sourceTree = "<group>"; };
 		839D82A11DDEDF06008CEEE3 /* MLEmoji_Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLEmoji_Expression.bundle; sourceTree = "<group>"; };
 		839D82A21DDEDF06008CEEE3 /* MLEmoji_Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MLEmoji_Expression.plist; sourceTree = "<group>"; };
 		839D82A31DDEDF06008CEEE3 /* MLEmoji_ExpressionImage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MLEmoji_ExpressionImage.plist; sourceTree = "<group>"; };
@@ -252,6 +253,7 @@
 				835522AB1DD5A82A0037A30B /* Views */,
 				835522AC1DD5A8E20037A30B /* LFYChatViewController.h */,
 				835522AD1DD5A8E20037A30B /* LFYChatViewController.m */,
+				8374D4BD1DE3DA7F005A39C1 /* LFYChatConst.h */,
 			);
 			name = Chat;
 			path = ChatViewController;

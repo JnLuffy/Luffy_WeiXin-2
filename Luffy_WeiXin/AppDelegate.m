@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "LFYTabBarController.h"
 
+
 @interface AppDelegate ()
 
 @end
@@ -22,6 +23,8 @@
     _window.backgroundColor = [UIColor whiteColor];
     [self showMainTabBarControllers];
     [self setupNavBar];
+
+    
     return YES;
 }
 
